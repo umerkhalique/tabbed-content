@@ -3,7 +3,7 @@ const tab2 = document.querySelector(".tab2");
 const tab3 = document.querySelector(".tab3");
 const btns = document.querySelectorAll(".btn");
 
-btns.forEach((btn) => {
+btns.forEach(btn => {
   btn.addEventListener("click", (e) => {
     if (e.target.textContent === "tab1") {
       tab1.classList.add("active");

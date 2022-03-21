@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 20px;
 }
 
 .tab.active{
@@ -33,6 +34,7 @@
     align-items: center;
     display: flex;
     color: white;
+    font-size: 20px;
 }
 .btns{
     display: flex;

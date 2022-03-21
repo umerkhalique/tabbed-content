@@ -21,10 +21,18 @@
     width: 100px;
     background-color: orangered;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .tab.active{
     height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
 }
 .btns{
     display: flex;
